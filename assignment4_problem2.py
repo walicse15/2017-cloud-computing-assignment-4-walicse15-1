@@ -33,8 +33,8 @@ class MRCostCalc(MRJob):
 class MRMostFrequentDomains(MRJob):
 
     def a(self, _, key):
-        if re.match(url_pattern2, key) is not None:
-            a = re.match(url_pattern2, key)
+        if re.match(url_pattern, key) is not None:
+            a = re.match(url_pattern, key)
             (host, d, request, status, bytes) = a.groups()
             new_url_pattern = re.compile(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$")
             result = new_url_pattern.match(host)
