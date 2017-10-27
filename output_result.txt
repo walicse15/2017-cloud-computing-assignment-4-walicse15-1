@@ -1,0 +1,6 @@
+"29.324 Transmitted data in GBs"	"1483812 Total requests"
+78670	"nasa.gov"
+45159	"prodigy.com"
+44906	"netcom.com"
+42102	"aol.com"
+37675	"compuserve.com"
